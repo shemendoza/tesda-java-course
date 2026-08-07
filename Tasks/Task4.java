@@ -1,11 +1,15 @@
 package Tasks;
 
+import java.util.Scanner;
 public class Task4 {
     public static void main(String[] args) {
-        String input="racecar";
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String input = scanner.nextLine();
+        
         StringBuilder sb = new StringBuilder(input);
         sb.reverse();
-        String reversed = sb.reverse().toString();
+        String reversed = sb.toString();
         
         if(input.equals(reversed))
         System.out.println("The input string is a palindrome");

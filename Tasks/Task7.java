@@ -24,14 +24,14 @@ public class Task7 {
         System.out.print("Enter second number: ");
         double num2 = userInput.nextDouble();
 
-        System.out.println("Addition: " + Addition(num1, num2));
-        System.out.println("Subtraction: " + Subtraction(num1, num2));
-        System.out.println("Multiplication: " + Multiplication(num1, num2));
+        System.out.println("Sum: " + Addition(num1, num2));
+        System.out.println("Difference: " + Subtraction(num1, num2));
+        System.out.println("Product: " + Multiplication(num1, num2));
 
         if (num2 != 0)
-        System.out.println("Division: " + Division(num1, num2));
+        System.out.println("Quotient: " + Division(num1, num2));
     else
-        System.out.println("Division: Cannot divide by zero");
+        System.out.println("Quotient: Cannot divide by zero");
     }
 
     
